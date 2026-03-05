@@ -1,0 +1,4 @@
+-cp Source/Engine
+-cp Source/WebSDK
+-main Root
+-js Generated/JS/root.js
