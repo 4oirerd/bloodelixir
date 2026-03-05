@@ -1,0 +1,15 @@
+package;
+
+import js.html.CanvasElement;
+import js.html.webgl.WebGL2RenderingContext;
+
+
+class Wgl2Root 
+{
+    public var canvas:CanvasElement;
+    public var gl:WebGL2RenderingContext;
+    public var width: Int = 16 * 80;
+    public var height: Int = 9 * 80;
+
+    public function new() {}
+}
